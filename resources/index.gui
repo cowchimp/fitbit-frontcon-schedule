@@ -1,0 +1,48 @@
+<svg>
+  <defs>
+    <!-- Template Symbol for the header -->
+    <symbol id="view-header" href="#scrollview-header">
+      <rect fill="inherit" x="0" y="0" width="100%" height="100%"/>
+      <text class="header" text-length="32" text-anchor="middle" x="50%" y="50%+10" fill="black" font-size="30" font-weight="bold" />
+    </symbol>
+    <symbol id="view-item" height="50%+10" href="#scrollview-item">
+      <text id="time" x="5" y="25" font-size="20" fill="white" text-buffer="Time" text-length="16"></text>
+      <textarea id="desc" x="5" y="35" width="100%-10" font-size="26" fill="white" text-buffer="Desc" text-length="128"></textarea>
+      <rect id="tile-divider-bottom" x="0" y="100%-2" width="100%" height="2" fill="#A0A0A0" />
+    </symbol>
+    <symbol id="view-page">
+      <use href="#panoramaview-item">
+        <use href="#scrollview">
+          <use href="#view-header" height="40" fill="#f7f7f7" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+          <use class="item" href="#view-item" />
+        </use>
+      </use>
+    </symbol>
+  </defs>
+  <use id="container" href="#panoramaview">
+    <use class="page" href="#view-page" />
+    <use class="page" href="#view-page" />
+    <use class="page" href="#view-page" />
+    <use class="page" href="#view-page" />
+    <use class="page" href="#view-page" />
+  </use>
+</svg>

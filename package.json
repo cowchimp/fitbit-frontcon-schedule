@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "2d9700e3-4f41-4b7d-9d6d-b1e0917c5001",
+    "appType": "app",
+    "appDisplayName": "Frontcon",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Frontcon"
+      }
+    }
+  }
+}
